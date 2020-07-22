@@ -1,0 +1,61 @@
+html{
+    height: 100%;
+}
+
+html {
+  background-image: url('fusee.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Login #password{
+    size: 25px;
+}
+label{
+    color: white;
+    font-size: 25px;
+    
+}
+
+input {
+    width: 100%;
+    
+}
+
+#MonForm{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:300px; /* A toi de donner la bonne largeur */
+    height:200px; /* A toi de donner la bonne hauteur */
+    margin-left:-150px; /* -largeur/2 */
+    margin-top:-100px; /* -hauteur/2 */
+
+}
+
+.Navigation {
+    nav-left: 15px;
+    font-size: 25px;
+    margin: 15px;
+    padding: 5px;
+}
+
+a{
+  padding: 150px;
+}
+
+.rainbow-text {
+    background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 90px;
+    animation: rainbow 8s ease infinite;
+  }
+
+@keyframes rainbow { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
+}   

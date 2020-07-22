@@ -1,0 +1,31 @@
+html{
+    height: 200%;
+}
+
+html {
+  background-image: url('mandoge.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+label{
+    color: white;
+}
+
+h1,h2{
+    color: white;
+}
+
+.Navigation {
+    nav-left: 15px;
+    font-size: 25px;
+    margin: 15px;
+    padding: 5px;
+}
+
+a{
+  padding: 150px;
+  color: white;
+}
