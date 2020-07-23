@@ -9,7 +9,6 @@ let Utilisateur = [
 const connexion = (event) => {
     event.preventDefault()
     for (users of Utilisateur) {
-        console.log(users)
         if (users.pseudo == event.target[0].value && users.password == event.target[1].value) {
             if (confirm("Felicitations, vous êtes maintenant connecter")) {
                 window.location.href = "../accueil/accueil.html";
@@ -20,3 +19,4 @@ const connexion = (event) => {
 }
 
 document.querySelector("#MonForm").addEventListener('submit', connexion)
+
