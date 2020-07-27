@@ -1,8 +1,8 @@
 let trouvaille = [
-    { name: "Michel", lastname: "Vedette", contact: "Michel@Vedette.fr" },
-    { name: "Martine", lastname: "Vedette", contact: "Michel@Vedette.fr" },
-    { name: "Mariette", lastname: "Vedette", contact: "Michel@Vedette.fr" },
-    { name: "Kiki", lastname: "Vedette", contact: "Michel@Vedette.fr" },
+    { id: 1, name: "Michel", lastname: "Vedette", contact: "Michel@Vedette.fr" },
+    { id: 2, name: "Martine", lastname: "Vedette", contact: "Michel@Vedette.fr" },
+    { id: 3, name: "Mariette", lastname: "Vedette", contact: "Michel@Vedette.fr" },
+    { id: 4, name: "Kiki", lastname: "Vedette", contact: "Michel@Vedette.fr" },
 ]
 
 
